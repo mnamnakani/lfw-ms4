@@ -10,7 +10,7 @@ Files
 
 "lfw_ms4_dataset_gt_rates.csv" contains the ground truth relative rates of 24 facial attributes for the LFW-MS4 subjects. The relative rates of each attribute were deduced based on the labels collected in [3].
 
-"comparative labels/relation_matrix_f_*.csv" consists of the pairwise comparisons between the 430 subjects of the LFW-MS4 dataset where an entry (i,j) represents a comparison between subjects i and j. The values -1,0, and 1 are associated with the "Less", "Same", and "More" labels respectively, and the value 5 represents the "Don't know" label. The integer that follows 'f' in the file name represents the attribute index is in Table 1 in [3].
+"comparative labels/relation_matrix_f_*.csv" consists of the pairwise comparisons between the 430 subjects of the LFW-MS4 dataset as a matrix where an entry (i,j) represents a comparison between subjects i and j. The values -1,0, and 1 are associated with the "Less", "Same", and "More" labels respectively, and the value 5 represents the "Don't know" label. The integer that follows 'f' in the file name represents the attribute index is in Table 1 in [3].
 
 For any questions
 --------------------------
